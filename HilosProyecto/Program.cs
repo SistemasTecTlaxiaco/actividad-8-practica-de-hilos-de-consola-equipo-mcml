@@ -39,7 +39,18 @@ namespace HilosProyecto
             Console.WriteLine(" Todos los productos han sido empacados.");
 
         }
+        // Método que simula el proceso de empacado por un trabajador
+        static void Empacar(object nombre)  // Recibe un parámetro que representa el nombre del empacador
+        {
+            for (int i = 1; i <= 4; i++)  // Cada empacador empaca 4 productos
+            {
+                // Muestra qué empacador empacó qué producto
+                Console.WriteLine($"{nombre} empacó producto {i}");
 
+                // Simula el tiempo que tarda en empacar un producto (entre 700 y 1500 milisegundos)
+                Thread.Sleep(new Random().Next(700, 1500));
+            }
+
+        }
     }
-}
 }
