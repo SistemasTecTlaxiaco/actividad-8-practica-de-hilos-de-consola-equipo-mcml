@@ -28,6 +28,13 @@ namespace HilosProyecto
             empacador4.Start("Empacador 4");
             empacador5.Start("Empacador 5");
 
+            // Espera a que los cinco hilos terminen antes de continuar
+            empacador1.Join();
+            empacador2.Join();
+            empacador3.Join();
+            empacador4.Join();
+            empacador5.Join();
+
             // Cuando los cinco hilos terminan, se muestra este mensaje final
             Console.WriteLine(" Todos los productos han sido empacados.");
 
