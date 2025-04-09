@@ -28,6 +28,9 @@ namespace HilosProyecto
             empacador4.Start("Empacador 4");
             empacador5.Start("Empacador 5");
 
+            // Cuando los cinco hilos terminan, se muestra este mensaje final
+            Console.WriteLine(" Todos los productos han sido empacados.");
+
         }
 
     }
