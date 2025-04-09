@@ -1,9 +1,9 @@
-﻿using System;
+﻿using System;  // Importa funcionalidades básicas (como Console)
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
+using System.Linq; // Proporciona funcionalidades para trabajar con consultas LINQ (Language Integrated Query)
+using System.Text; // Proporciona clases para la manipulación de texto y codificaciones.
+using System.Threading; // Necesario para trabajar con hilos (Thread)
+using System.Threading.Tasks; // Ofrece tareas asincrónicas (no se usa en este ejemplo)
 
 namespace HilosProyecto
 {

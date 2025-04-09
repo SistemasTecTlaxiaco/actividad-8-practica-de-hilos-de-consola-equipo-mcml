@@ -1,0 +1,2 @@
+C:\Users\lenin\Source\Repos\actividad-8-practica-de-hilos-de-consola-equipo-mcml\HilosProyecto\obj\Debug\HilosProyecto.csproj.AssemblyReference.cache
+C:\Users\lenin\Source\Repos\actividad-8-practica-de-hilos-de-consola-equipo-mcml\HilosProyecto\obj\Debug\HilosProyecto.csproj.CoreCompileInputs.cache
