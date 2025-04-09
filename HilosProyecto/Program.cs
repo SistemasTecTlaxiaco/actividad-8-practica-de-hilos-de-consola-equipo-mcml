@@ -51,6 +51,9 @@ namespace HilosProyecto
                 Thread.Sleep(new Random().Next(700, 1500));
             }
 
+            // Mensaje indicando que el empacador terminó su turno
+            Console.WriteLine($" {nombre} terminó su turno.");
+
         }
     }
 }
