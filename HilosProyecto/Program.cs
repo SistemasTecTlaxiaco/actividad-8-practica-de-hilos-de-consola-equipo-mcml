@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace HilosProyecto
 {
-    internal class Program
+    internal class Program //// Clase principal del programa
+
     {
-        static void Main(string[] args)
+        static void Main(string[] args) // // Método principal: punto de entrada del programa
         {
         }
     }
