@@ -21,6 +21,12 @@ namespace HilosProyecto
             Thread empacador4 = new Thread(Empacar);
             Thread empacador5 = new Thread(Empacar);
 
+            // Inicia los cinco hilos, pasando el nombre del empacador como parámetro
+            empacador1.Start("Empacador 1");
+            empacador2.Start("Empacador 2");
+            empacador3.Start("Empacador 3");
+            empacador4.Start("Empacador 4");
+            empacador5.Start("Empacador 5");
 
         }
 
